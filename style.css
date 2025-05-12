@@ -1,0 +1,136 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(180deg, #291e74, #07032e);
+      color: white;
+      padding: 20px;
+    }
+    
+    .album-container {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+    h2{
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background: #000000;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border-radius: 15px;
+
+    }
+    h3{
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        padding: 20px;
+        text-align: center;
+
+    }
+    p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .flags {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columnas iguales */
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.flags img {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+  border: 1px solid #ccc;
+  padding: 4px;
+  background-color: white;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap; /* por si no caben todas en una fila */
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.images img{
+  height: 810px; /* tamaño uniforme */
+  width: auto;
+  object-fit: contain;
+  border: 1px solid #ccc;
+  padding: 2px;
+  background-color: white;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap; /* por si no caben todas en una fila */
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav img{
+  height: 1025px; /* tamaño uniforme */
+  width: auto;
+  object-fit: contain;
+  border: 1px solid #ccc;
+  padding: 2px;
+  background-color: white;
+}
+   #images{
+
+    display: flex;
+    width: 40%;
+    margin: 0 auto;
+
+   }
+   
+    .album-cover {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .album-info h1 {
+      font-size: 3em;
+    }
+    .album-info p {
+      margin: 10px 0;
+      color: #aaa;
+    }
+    
+    
+    .tracklist {
+      margin-top: 30px;
+    }
+    .track {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 0;
+      border-bottom: 1px solid #333;
+    }
+    .track-number {
+      width: 30px;
+    }
+    .track-title {
+      flex: 1;
+    }
+    .track-duration {
+      width: 50px;
+      text-align: right;
+    }

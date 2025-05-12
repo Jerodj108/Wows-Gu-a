@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Bitácora de Marinero - Guía Básica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+nav button {
+      background-color: #222;
+      color: #fff;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      margin: 0 0.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+
+    nav button:hover {
+      background-color: #880000;
+    }</style>
+<body>
+  <script>
+  function scrollToSection(id) {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+</script>
+
+  <h1>Bitácora de Marinero</h1>
+  <h2>Guía Básica</h2>
+  
+  <nav>
+    <button onclick="scrollToSection('A')">¿Qué es?</button>
+    <button onclick="scrollToSection('B')">Puerto</button>
+    <button onclick="scrollToSection('C')">Clases de barcos</button>
+    <button onclick="scrollToSection('D')">Naciones</button>
+    <button onclick="scrollToSection('E')">Navegación</button>
+    <button onclick="scrollToSection('F')">Artillería</button>
+    <button onclick="scrollToSection('G')">Como usar Portaaviones</button>
+    <button onclick="scrollToSection('H')">Aviones</button>
+    <button onclick="scrollToSection('I')">Tipos de barcos</button>
+  </nav>
+
+ 
+
+  <section id="A">
+    <h3>¿Qué es?</h3>
+    <p>Es un videojuego multijugador en línea gratuito de combate naval táctico, ambientado en el siglo XX. Los jugadores comandan una flota de barcos de guerra históricos como destructores, cruceros, acorazados y portaaviones, cada uno con características únicas como velocidad, potencia de fuego, defensa aérea o estrategia aérea...</p>
+    <div class="images">
+    <img src="Combate.jpg" alt="Combate">
+    </div>
+  </section>
+  
+  <section id="B">
+    <h3>Puerto</h3>
+    <p>Cuando obtengas un barco, este se mostrará en el puerto. Puedes cambiar entre tus barcos obtenidos en el panel...</p>
+    <div class="images">
+      <img src="Puerto.jpg" alt="Puerto">
+      </div>
+  </section>
+
+  <section id="C">
+    <div class="section">
+    <h3>Destructores</h3>
+    <p>Son el tipo de barco de guerra más rápido y ágil. Cuenta con armamento ligero y torpedos devastadores...</p>
+    <div id="images">
+    <div>
+        <img src="Recurso 1.png" alt="torpedos" class="album-cover">
+        <p>Torpedos</p>
+
+    </div>
+    <div>
+        <img src="Recurso 3.png" alt="Portada Álbum" class="album-cover">
+        <p>Alta maniobrabilidad</p>
+
+    </div>
+
+    <div>
+        <img src="Recurso 4.png" alt="Portada Álbum" class="album-cover">
+        <p>Cortina de humo</p>
+
+    </div>
+    </div>
+</div>
+
+  <div class="section">
+    <h3>Cruceros</h3>
+    <p>Su variedad de armamento y consumibles hacen de ellos los más versátiles en los encuentros navales...</p>
+    <div class="section">
+    <h3>Destructores</h3>
+    <p>Son el tipo de barco de guerra más rápido y ágil. Cuenta con armamento ligero y torpedos devastadores...</p>
+    <div id="images">
+    <div>
+        <img src="Recurso 5.png" alt="torpedos" class="album-cover">
+        <p>Cadencia de tiro</p>
+
+    </div>
+    <div>
+        <img src="Recurso 6.png" alt="Portada Álbum" class="album-cover">
+        <p>Antiaéreas eficaces</p>
+
+    </div>
+
+    <div>
+        <img src="Recurso 7.png" alt="Portada Álbum" class="album-cover">
+        <p>Versatilidad</p>
+
+    </div>
+</div>
+  </div>
+
+  <div class="section">
+    <h3>Acorazados</h3>
+    <p>Auténticos pesos pesados, capaces tanto de repartir como de absorber daño en grandes cantidades...</p>
+    <div id="images">
+    <div>
+        <img src="Recurso 8.png" alt="torpedos" class="album-cover">
+        <p>Potencia de fuego</p>
+
+    </div>
+    <div>
+        <img src="Recurso 9.png" alt="Portada Álbum" class="album-cover">
+        <p>Gran supervivencia</p>
+
+    </div>
+
+    <div>
+        <img src="Recurso 10.png" alt="Portada Álbum" class="album-cover">
+        <p>Control en el campo</p>
+
+    </div>
+</div>
+  </div>
+
+  <div class="section">
+    <h3>Portaaviones</h3>
+    <p>El arma principal de un portaaviones son sus escuadrones aéreos. Por sí solos no tienen defensa significativa...</p>
+    <div id="images">
+    <div>
+        <img src="Recurso 11.png" alt="torpedos" class="album-cover">
+        <p>Aviación</p>
+
+    </div>
+    <div>
+        <img src="Recurso 12.png" alt="Portada Álbum" class="album-cover">
+        <p>Reconocimiento</p>
+
+    </div>
+
+    <div>
+        <img src="Recurso 13.png" alt="Portada Álbum" class="album-cover">
+        <p>Estrategia</p>
+
+    </div>
+</div>
+  </div>
+
+  <div class="section">
+    <h3>Submarinos</h3>
+    <p>Los submarinos son cazadores frágiles, pero muy peligrosos. Pueden atacar a objetivos en superficie y sumergidos...</p>
+    <div id="images">
+    <div>
+        <img src="Recurso 14.png" alt="torpedos" class="album-cover">
+        <p>Apuntamiento acustico</p>
+
+    </div>
+    <div>
+        <img src="Recurso 15.png" alt="Portada Álbum" class="album-cover">
+        <p>Baja detectabilidad</p>
+
+    </div>
+
+    <div>
+        <img src="Recurso 16.png" alt="Portada Álbum" class="album-cover">
+        <p>Profundidades bajas</p>
+
+    </div>
+</div>
+  </div>
+  </section>
+
+  <section id="D">
+  <h3>Naciones</h3>
+  <p>Yamato, Missouri, Aurora, Bismarck, Belfast, Richelieu, Roma, y más. Cada una con historias y caracteristicas unicas.</p>
+  <div class="flags">
+    <img src="Flag_of_Japan.jpg" alt="IJN">
+    <img src="Flag_of_the_United_States.jpg" alt="USS">
+    <img src="Flag_of_the_Soviet_Union.jpg" alt="NS">
+    <img src="Flag_of_kriegsmarine.jpg" alt="KMS">
+    <img src="Flag_of_the_United_Kingdom.jpg" alt="HMS">
+    <img src="Flag_of_France.jpg" alt="FFNF">
+    <img src="Flag_of_Italy.jpg" alt="RS">
+    <img src="Flag_of_Europe.jpg" alt="ES">
+    <img src="Flag_of_Pan_Asia.jpg" alt="CS">
+    <img src="Flag_of_Pan_American.jpg" alt="LS">
+  </div>
+  </section>
+
+    <section id="E">
+    <h3>Navegación</h3>
+    <p>W - Acelerar | S - Frenar | A/D - Girar | Q/E - Timón bloqueado. Cambia de rumbo y velocidad para evadir ataques...</p>
+    <div class="nav">
+    <img src="navigation.png" alt="Navegación">
+    </div>
+    </section>
+
+  <section id="F">
+    <h3>Artillería</h3>
+    <p>Los cruceros, acorazados y destructores vienen equipados con cañones de batería principal: Para apuntar correctamente hacia un barco enemigo en movimiento, sitúa tu retícula frente a este, anticipando la posible ubicación en la que vaya estar cuando tus proyectiles impacten.
+
+Muévete para girar los cañones del barco.
+
+Haz clic para realizar un único disparo.
+
+Haz clic y mantén pulsado para abrir fuego secuencial.
+
+Haz doble clic para lanzar una salva de batería principal.
+
+Haz clic en la rueda de desplazamiento para disparar y seguir el proyectil con la cámara.
+
+Antes de hacer caer una lluvia de munición 
+sobre tu enemigo, trata realizar un disparo de prueba para ver dónde aterriza y garantizar que el resto de tus disparos lo alcancen.
+</p>
+
+  <div class="section">
+    <h3>Munición</h3>
+    <div id="images">
+    <div>
+        <img src="Recurso 21.png" alt="torpedos" class="album-cover">
+        <p><li><strong>HE:</strong> Provocan incendios, bajo índice de penetración.</li></p>
+
+    </div>
+    <div>
+        <img src="Recurso 22.png" alt="Portada Álbum" class="album-cover">
+        <p><li><strong>AP:</strong> Mayor daño, no provocan incendios.</li></p>
+
+    </div>
+
+    <div>
+        <img src="Recurso 23.png" alt="Portada Álbum" class="album-cover">
+        <p><li><strong>SAP:</strong> Equilibrio entre daño y penetración.</li></p>
+
+    </div>
+
+    <div>
+        <img src="Recurso 24.png" alt="Portada Álbum" class="album-cover">
+        <p><li><strong>Torpedo:</strong> Daño masivo a corta distancia.</li></p>
+
+    </div>
+</div>
+  </div>
+  </div>
+  </section>
+
+  <section id="G">
+    <h3>Cómo usar portaaviones</h3>
+    <p>Jugabilidad:
+Puedes controlar un escuadrón o el portaaviones, pero solo de uno en uno. Deja que tu barco navegue con el piloto automático y céntrate únicamente en lanzar lluvias de disparos sobre tus enemigos.
+</p>
+<p>Escuadrones:
+Los portaaviones tienen 3 tipos de aviones: Aviones de ataque (cazas equipados con chetes), bombarderos (aviones pesados y lentos) y torpederos (con un 
+torpedo similar al de los destructores).</p>
+
+<p>En función del tipo de escuadrón, verás una elipse para el lanzamiento de cohetes y bombas, o una 
+retícula para un ataque de torpedos. Cuando estés listo para el ataque, la retícula se volverá verde.</p>
+
+<p>Clic para activar el modo de ataque.</p>
+
+<p>Otra vez clic para atacar.</p>
+
+  </section>
+
+  <section id="H">
+    <h3>Aviones</h3>
+<p>Aviones de ataque: Aviones de ataque: Los aviones de ataque llevan cohetes sin dirección fija y pueden infligir una gran cantidad de daño a objetivos con blindaje ligero. Los cohetes HE pueden causar incendios, mientras que los cohetes AP son capaces de infligir una gran cantidad de daño al barco enemigo, incluyendo la ciudadela.</p>
+
+<p>Torpederos: Los bombarderos torpederos son el arma preferida de los portaaviones para causar impactos. Son más eficaces contra objetivos grandes con un blindaje pesado. El cono de lanzamiento de los bombarderos torpederos se divide en varios sectores, según el número de torpedos que el grupo de ataque esté listo para lanzar.</p>
+
+<p>Bombarderos: Los bombarderos son aviones equipados con bombas de alto explosivo (HE) o bombas perforantes (AP). Un bombardero en picado se aproxima a una altura elevada y a continuación desciende hacia el objetivo hasta lanzar la bomba a una cota baja altitud. Acto seguido, interrumpe el descenso y se aleja.</p>
+
+  </section>
+  
+
+  <section id="I">
+    <h3>Tipos de Barcos</h3>
+    <p>Existen distintos tipos de barcos para iniciar cualquier batalla, cada uno se diferencia del otro por medio de obtención, por las mejoras que puede traer, por medio de los consumibles que incluye, etc.</p>
+
+<p>Barcos desarrollables: Una amplia colección de buques de diferentes naciones y tipos, disponible para todos los jugadores. Para desarrollarlos y comprarlos, necesitarás XP y Créditos.</p>
+
+<p>Barcos de élite: El barco adquiere el estatus de élite una vez que desbloqueas todas las mejoras de módulos del barco y los barcos sucesivos.</p>
+
+<p>Barcos especiales: Los barcos especiales son todos los barcos de nivel X no desarrollables, barcos de alquiler para varios eventos y los barcos de acceso anticipado que se pueden obtener en la Armería.</p>
+
+<p>Barcos premium: Se pueden adquirir en el juego a cambio de doblones en el árbol tecnológico.</p>
+
+  </section>
+  <footer>Sitio web desarrollado por Jeronimo Diaz Henao - (C) 2025 UPB</footer>
+
+</body>
+</html>
